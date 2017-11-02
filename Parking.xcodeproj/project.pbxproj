@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		AE3EC2531FABB18200354965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2521FABB18200354965 /* AppDelegate.swift */; };
-		AE3EC2551FABB18200354965 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2541FABB18200354965 /* ViewController.swift */; };
 		AE3EC2581FABB18200354965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC2561FABB18200354965 /* Main.storyboard */; };
 		AE3EC25B1FABB18200354965 /* Parking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2591FABB18200354965 /* Parking.xcdatamodeld */; };
 		AE3EC25D1FABB18200354965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC25C1FABB18200354965 /* Assets.xcassets */; };
 		AE3EC2601FABB18200354965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC25E1FABB18200354965 /* LaunchScreen.storyboard */; };
+		AE3EC2681FABB27B00354965 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2671FABB27B00354965 /* FlowController.swift */; };
+		AE3EC26E1FABB37700354965 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC26B1FABB37700354965 /* SignUpViewController.swift */; };
+		AE3EC26F1FABB37700354965 /* FirebaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC26C1FABB37700354965 /* FirebaseController.swift */; };
+		AE3EC2701FABB37700354965 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC26D1FABB37700354965 /* LoginViewController.swift */; };
+		AE3EC2731FABB5A700354965 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC2711FABB58900354965 /* GoogleService-Info.plist */; };
+		AE3EC2751FABB95800354965 /* ToolbarTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2741FABB95800354965 /* ToolbarTextField.swift */; };
+		AE3EC27E1FABBAE800354965 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC27D1FABBAE800354965 /* Login.storyboard */; };
+		C1EB5605376B28E452EB8912 /* Pods_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A75C0F08DE3A54FA22EF8A /* Pods_Parking.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A1F154E85F89DA6506F2DBD /* Pods-Parking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parking.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parking/Pods-Parking.release.xcconfig"; sourceTree = "<group>"; };
+		67A75C0F08DE3A54FA22EF8A /* Pods_Parking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1FCF1C0D50AA1ECCA87B24 /* Pods-Parking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parking/Pods-Parking.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3EC24F1FABB18200354965 /* Parking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3EC2521FABB18200354965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE3EC2541FABB18200354965 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE3EC2571FABB18200354965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE3EC25A1FABB18200354965 /* Parking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parking.xcdatamodel; sourceTree = "<group>"; };
 		AE3EC25C1FABB18200354965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3EC25F1FABB18200354965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3EC2611FABB18200354965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3EC2671FABB27B00354965 /* FlowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		AE3EC26B1FABB37700354965 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AE3EC26C1FABB37700354965 /* FirebaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseController.swift; sourceTree = "<group>"; };
+		AE3EC26D1FABB37700354965 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE3EC2711FABB58900354965 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE3EC2741FABB95800354965 /* ToolbarTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarTextField.swift; sourceTree = "<group>"; };
+		AE3EC27D1FABBAE800354965 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1EB5605376B28E452EB8912 /* Pods_Parking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00EB6F3AEE8D512E2570C270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1FCF1C0D50AA1ECCA87B24 /* Pods-Parking.debug.xcconfig */,
+				3A1F154E85F89DA6506F2DBD /* Pods-Parking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE3EC2461FABB18200354965 = {
 			isa = PBXGroup;
 			children = (
 				AE3EC2511FABB18200354965 /* Parking */,
 				AE3EC2501FABB18200354965 /* Products */,
+				00EB6F3AEE8D512E2570C270 /* Pods */,
+				C5A49F596A3F4BA6BCDBD380 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,53 @@
 		AE3EC2511FABB18200354965 /* Parking */ = {
 			isa = PBXGroup;
 			children = (
+				AE3EC26A1FABB2A700354965 /* Controller */,
+				AE3EC2691FABB28F00354965 /* View */,
 				AE3EC2521FABB18200354965 /* AppDelegate.swift */,
-				AE3EC2541FABB18200354965 /* ViewController.swift */,
 				AE3EC2561FABB18200354965 /* Main.storyboard */,
+				AE3EC2711FABB58900354965 /* GoogleService-Info.plist */,
 				AE3EC25C1FABB18200354965 /* Assets.xcassets */,
 				AE3EC25E1FABB18200354965 /* LaunchScreen.storyboard */,
 				AE3EC2611FABB18200354965 /* Info.plist */,
 				AE3EC2591FABB18200354965 /* Parking.xcdatamodeld */,
+				AE3EC27C1FABBAD000354965 /* storyBpoards */,
 			);
 			path = Parking;
+			sourceTree = "<group>";
+		};
+		AE3EC2691FABB28F00354965 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE3EC2741FABB95800354965 /* ToolbarTextField.swift */,
+				AE3EC26C1FABB37700354965 /* FirebaseController.swift */,
+				AE3EC26D1FABB37700354965 /* LoginViewController.swift */,
+				AE3EC26B1FABB37700354965 /* SignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE3EC26A1FABB2A700354965 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE3EC2671FABB27B00354965 /* FlowController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE3EC27C1FABBAD000354965 /* storyBpoards */ = {
+			isa = PBXGroup;
+			children = (
+				AE3EC27D1FABBAE800354965 /* Login.storyboard */,
+			);
+			path = storyBpoards;
+			sourceTree = "<group>";
+		};
+		C5A49F596A3F4BA6BCDBD380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A75C0F08DE3A54FA22EF8A /* Pods_Parking.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3EC2641FABB18200354965 /* Build configuration list for PBXNativeTarget "Parking" */;
 			buildPhases = (
+				E579EA7970A9725D090ECA4A /* [CP] Check Pods Manifest.lock */,
 				AE3EC24B1FABB18200354965 /* Sources */,
 				AE3EC24C1FABB18200354965 /* Frameworks */,
 				AE3EC24D1FABB18200354965 /* Resources */,
+				C660AE402530254F3E5F71BF /* [CP] Embed Pods Frameworks */,
+				A63F48D75008D047429A17D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,21 +196,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3EC2601FABB18200354965 /* LaunchScreen.storyboard in Resources */,
+				AE3EC2731FABB5A700354965 /* GoogleService-Info.plist in Resources */,
 				AE3EC25D1FABB18200354965 /* Assets.xcassets in Resources */,
+				AE3EC27E1FABBAE800354965 /* Login.storyboard in Resources */,
 				AE3EC2581FABB18200354965 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A63F48D75008D047429A17D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parking/Pods-Parking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C660AE402530254F3E5F71BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parking/Pods-Parking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E579EA7970A9725D090ECA4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE3EC24B1FABB18200354965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE3EC2551FABB18200354965 /* ViewController.swift in Sources */,
+				AE3EC2701FABB37700354965 /* LoginViewController.swift in Sources */,
+				AE3EC2751FABB95800354965 /* ToolbarTextField.swift in Sources */,
+				AE3EC26F1FABB37700354965 /* FirebaseController.swift in Sources */,
 				AE3EC25B1FABB18200354965 /* Parking.xcdatamodeld in Sources */,
 				AE3EC2531FABB18200354965 /* AppDelegate.swift in Sources */,
+				AE3EC26E1FABB37700354965 /* SignUpViewController.swift in Sources */,
+				AE3EC2681FABB27B00354965 /* FlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +399,7 @@
 		};
 		AE3EC2651FABB18200354965 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1FCF1C0D50AA1ECCA87B24 /* Pods-Parking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +415,7 @@
 		};
 		AE3EC2661FABB18200354965 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1F154E85F89DA6506F2DBD /* Pods-Parking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
