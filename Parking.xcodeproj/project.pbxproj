@@ -19,6 +19,7 @@
 		AE3EC2731FABB5A700354965 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC2711FABB58900354965 /* GoogleService-Info.plist */; };
 		AE3EC2751FABB95800354965 /* ToolbarTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2741FABB95800354965 /* ToolbarTextField.swift */; };
 		AE3EC27E1FABBAE800354965 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC27D1FABBAE800354965 /* Login.storyboard */; };
+		AE3EC2801FABCBE100354965 /* ParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC27F1FABCBE100354965 /* ParkingViewController.swift */; };
 		C1EB5605376B28E452EB8912 /* Pods_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A75C0F08DE3A54FA22EF8A /* Pods_Parking.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		AE3EC2711FABB58900354965 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE3EC2741FABB95800354965 /* ToolbarTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarTextField.swift; sourceTree = "<group>"; };
 		AE3EC27D1FABBAE800354965 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AE3EC27F1FABCBE100354965 /* ParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +86,16 @@
 		AE3EC2511FABB18200354965 /* Parking */ = {
 			isa = PBXGroup;
 			children = (
-				AE3EC26A1FABB2A700354965 /* Controller */,
+				AE3EC2811FABD22D00354965 /* Model */,
 				AE3EC2691FABB28F00354965 /* View */,
+				AE3EC26A1FABB2A700354965 /* Controller */,
 				AE3EC2521FABB18200354965 /* AppDelegate.swift */,
 				AE3EC2561FABB18200354965 /* Main.storyboard */,
-				AE3EC2711FABB58900354965 /* GoogleService-Info.plist */,
 				AE3EC25C1FABB18200354965 /* Assets.xcassets */,
-				AE3EC25E1FABB18200354965 /* LaunchScreen.storyboard */,
 				AE3EC2611FABB18200354965 /* Info.plist */,
 				AE3EC2591FABB18200354965 /* Parking.xcdatamodeld */,
+				AE3EC2711FABB58900354965 /* GoogleService-Info.plist */,
+				AE3EC25E1FABB18200354965 /* LaunchScreen.storyboard */,
 				AE3EC27C1FABBAD000354965 /* storyBpoards */,
 			);
 			path = Parking;
@@ -102,9 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				AE3EC2741FABB95800354965 /* ToolbarTextField.swift */,
-				AE3EC26C1FABB37700354965 /* FirebaseController.swift */,
 				AE3EC26D1FABB37700354965 /* LoginViewController.swift */,
 				AE3EC26B1FABB37700354965 /* SignUpViewController.swift */,
+				AE3EC27F1FABCBE100354965 /* ParkingViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +115,7 @@
 		AE3EC26A1FABB2A700354965 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AE3EC26C1FABB37700354965 /* FirebaseController.swift */,
 				AE3EC2671FABB27B00354965 /* FlowController.swift */,
 			);
 			path = Controller;
@@ -123,6 +127,13 @@
 				AE3EC27D1FABBAE800354965 /* Login.storyboard */,
 			);
 			path = storyBpoards;
+			sourceTree = "<group>";
+		};
+		AE3EC2811FABD22D00354965 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C5A49F596A3F4BA6BCDBD380 /* Frameworks */ = {
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE3EC2701FABB37700354965 /* LoginViewController.swift in Sources */,
+				AE3EC2801FABCBE100354965 /* ParkingViewController.swift in Sources */,
 				AE3EC2751FABB95800354965 /* ToolbarTextField.swift in Sources */,
 				AE3EC26F1FABB37700354965 /* FirebaseController.swift in Sources */,
 				AE3EC25B1FABB18200354965 /* Parking.xcdatamodeld in Sources */,

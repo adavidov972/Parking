@@ -17,12 +17,11 @@ class FlowController: NSObject {
     
     func determineRoot(){
         
-        guard let currentUser = Auth.auth().currentUser, let name = currentUser.displayName else{
+        guard let currentUser = Auth.auth().currentUser else{
             display(storyboard: "Login")
             return
         }
-        print(currentUser.description)
-        display(storyboard: name)
+        display(storyboard: "Main")
     }
     
     private func display(storyboard name : String){
