@@ -20,6 +20,7 @@
 		AE3EC2751FABB95800354965 /* ToolbarTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC2741FABB95800354965 /* ToolbarTextField.swift */; };
 		AE3EC27E1FABBAE800354965 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3EC27D1FABBAE800354965 /* Login.storyboard */; };
 		AE3EC2801FABCBE100354965 /* ParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3EC27F1FABCBE100354965 /* ParkingViewController.swift */; };
+		AED69AB21FFB59790004A236 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED69AB11FFB59790004A236 /* APIManager.swift */; };
 		C1EB5605376B28E452EB8912 /* Pods_Parking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A75C0F08DE3A54FA22EF8A /* Pods_Parking.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		AE3EC2741FABB95800354965 /* ToolbarTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarTextField.swift; sourceTree = "<group>"; };
 		AE3EC27D1FABBAE800354965 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		AE3EC27F1FABCBE100354965 /* ParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingViewController.swift; sourceTree = "<group>"; };
+		AED69AB11FFB59790004A236 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				AE3EC2711FABB58900354965 /* GoogleService-Info.plist */,
 				AE3EC25E1FABB18200354965 /* LaunchScreen.storyboard */,
 				AE3EC27C1FABBAD000354965 /* storyBpoards */,
+				AED69AB11FFB59790004A236 /* APIManager.swift */,
 			);
 			path = Parking;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				AE3EC2701FABB37700354965 /* LoginViewController.swift in Sources */,
 				AE3EC2801FABCBE100354965 /* ParkingViewController.swift in Sources */,
 				AE3EC2751FABB95800354965 /* ToolbarTextField.swift in Sources */,
+				AED69AB21FFB59790004A236 /* APIManager.swift in Sources */,
 				AE3EC26F1FABB37700354965 /* FirebaseController.swift in Sources */,
 				AE3EC25B1FABB18200354965 /* Parking.xcdatamodeld in Sources */,
 				AE3EC2531FABB18200354965 /* AppDelegate.swift in Sources */,
