@@ -99,7 +99,6 @@
 				AE3EC2711FABB58900354965 /* GoogleService-Info.plist */,
 				AE3EC25E1FABB18200354965 /* LaunchScreen.storyboard */,
 				AE3EC27C1FABBAD000354965 /* storyBpoards */,
-				AED69AB11FFB59790004A236 /* APIManager.swift */,
 			);
 			path = Parking;
 			sourceTree = "<group>";
@@ -135,6 +134,7 @@
 		AE3EC2811FABD22D00354965 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AED69AB11FFB59790004A236 /* APIManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
